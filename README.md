@@ -8,6 +8,11 @@ NOTE: these prices will not be accurate or based on a specific concert
 - Windows 10/11
 - (Prefered) Visual Studio
 
-## Screenshot
+## Screenshots
+![Base Screenshot](./Images/Base_Screenshot.png)
+  
+This is what it looks like when you open the form
 
-
+![Hello Message](./Images/Message-Screenshot.png)
+  
+This is what it looks like when you click the checkout button and the message is displayed

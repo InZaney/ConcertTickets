@@ -67,20 +67,21 @@
             // 
             // btnCheckout
             // 
-            btnCheckout.Location = new Point(45, 295);
+            btnCheckout.Location = new Point(66, 295);
             btnCheckout.Name = "btnCheckout";
             btnCheckout.Size = new Size(149, 72);
             btnCheckout.TabIndex = 3;
             btnCheckout.Text = "Checkout";
             btnCheckout.UseVisualStyleBackColor = true;
+            btnCheckout.Click += btnCheckout_Click;
             // 
             // cboxType
             // 
             cboxType.FormattingEnabled = true;
-            cboxType.Location = new Point(77, 77);
+            cboxType.Location = new Point(78, 77);
             cboxType.MaxDropDownItems = 3;
             cboxType.Name = "cboxType";
-            cboxType.Size = new Size(82, 23);
+            cboxType.Size = new Size(137, 23);
             cboxType.TabIndex = 4;
             // 
             // numAmount

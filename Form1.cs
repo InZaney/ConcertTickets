@@ -62,5 +62,9 @@ namespace ConcertTickets
             txtTotal.Text = (amount * cost).ToString("C2");
         }
 
+        private void btnCheckout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for your purchase of, " + (amount * cost).ToString("C2") + "\nCan't wait to see you at the concert!");
+        }
     }
 }

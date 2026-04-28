@@ -40,5 +40,27 @@ namespace ConcertTickets
             UpdateTotal();
         }
 
+        private void UpdateCost()
+        {
+            string choice = cboxType.SelectedItem.ToString();
+            if (choice.Contains("Regular"))
+            {
+                cost = 50;
+            }
+            else if (choice.Contains("Premium"))
+            {
+                cost = 150;
+            }
+            else if (choice.Contains("Pit"))
+            {
+                cost = 300;
+            }
+        }
+
+        private void UpdateTotal()
+        {
+            txtTotal.Text = (amount * cost).ToString("C2");
+        }
+
     }
 }

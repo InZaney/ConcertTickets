@@ -112,7 +112,7 @@
             Controls.Add(lblAmount);
             Controls.Add(lblType);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Concert Ticket Purchase";
             ((System.ComponentModel.ISupportInitialize)numAmount).EndInit();
             ResumeLayout(false);
             PerformLayout();

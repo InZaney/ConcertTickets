@@ -28,5 +28,17 @@ namespace ConcertTickets
             cboxType.SelectedIndexChanged += cboxType_SelectedIndexChanged;
         }
 
+        private void numAmount_ValueChanged(object sender, EventArgs e)
+        {
+            amount = (int)numAmount.Value;
+            UpdateTotal();
+        }
+
+        private void cboxType_SelectedIndexChanged(object sencer, EventArgs e)
+        {
+            UpdateCost();
+            UpdateTotal();
+        }
+
     }
 }

@@ -8,6 +8,7 @@ namespace ConcertTickets
         int cost;
         public Form1()
         {
+            // To initialize the combobox component
             InitializeComponent();
 
             cboxType.Items.Add("Regular ($50.00)");
